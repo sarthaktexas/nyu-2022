@@ -1,8 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@font-face {
+    font-family: "Garamond";
+    src: url(../public/fonts/VCGaramondCondensed-Regular.woff2) format("woff2");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PalmerScript";
+    src: url(../public/fonts/PalmerLake-Script.woff2) format("woff2");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PalmerLake";
+    src: url(../public/fonts/PalmerLake-Print.woff2) format("woff2");
+    font-weight: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html.dark {
-    color: #ffffff;
-    background-color: #000000;
+.w-fitcontent {
+    width: fit-content;
+}
+
+h1, .font-garamond {
+    font-family: "Garamond", serif;
+}
+
+h2 {
+    font-family: "PalmerLake", sans-serif;
+}
+
+span {
+    font-family: "PalmerScript", sans-serif;
+}
+
+p {
+    font-family: "Inter", sans-serif;
 }
