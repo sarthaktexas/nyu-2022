@@ -30,14 +30,14 @@ h1, .font-garamond {
     font-family: "Garamond", serif;
 }
 
-h2 {
+h2, .font-palmerlake {
     font-family: "PalmerLake", sans-serif;
 }
 
-span {
+span, .font-palmerscript {
     font-family: "PalmerScript", sans-serif;
 }
 
-p {
+p, .font-inter {
     font-family: "Inter", sans-serif;
 }
