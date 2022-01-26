@@ -1,3 +1,4 @@
+import Grid from '../components/grid'
 import HeadObject from '../components/head'
 import Letters from '../components/letters'
 
@@ -20,6 +21,24 @@ export default function Home() {
         </section>
         <section className="w-screen flex flex-row items-center justify-center bg-indigo-800">
           <a className="w-fitcontent text-3xl bg-indigo-700 text-white rounded-lg font-garamond py-2 px-4 my-5 hover:bg-indigo-600" href="/manifesto.pdf" target="_blank"><div className="pointer-events-none">Read my manifesto</div></a>
+        </section>
+        <section className="min-h-screen py-20 flex flex-col items-center justify-center bg-white">
+          <div className="flex flex-row space-x-5 mb-5">
+            <img src="https://github.com/sarthaktexas.png" alt="A picture of Sarthak Mohanty looking up and to the side as if staring at something spectacular" className="w-20 h-20 rounded-2xl" />
+            <div className="flex flex-col justify-center">
+              <p className="font-garamond text-3xl">Sarthak Mohanty</p>
+              <p className="font-garamond text-2xl text-gray-500">Fireworks Retailer</p>
+            </div>
+          </div>
+          <Grid />
+        </section>
+        <section className="w-screen flex flex-wrap gap-7 items-center justify-center bg-blue-800">
+          <a className="w-fitcontent text-3xl bg-blue-700 text-white rounded-lg font-garamond py-2 px-4 my-5 hover:bg-blue-600" href="https://github.com/sarthaktexas/nyu" target="_blank">
+            Github
+          </a>
+          <a className="w-fitcontent text-3xl bg-blue-700 text-white rounded-lg font-garamond py-2 px-4 my-5 hover:bg-blue-600" href="https://srtk.me" target="_blank">
+            Personal Website
+          </a>
         </section>
       </main>
     </div>
