@@ -28,14 +28,14 @@ export default function Letters() {
         <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row mb-5">
                 {letters.map((_, i) => (
-                    <div>
+                    <div key={i}>
                         <img className="h-10 md:h-20" src={`/letters/${i+1}.png`} />
                     </div>
                 ))}
             </div>
             <div className="flex flex-wrap items-center justify-center">
                 {letters.map(({ color, meaning, description }, i) => (
-                    <div className="flex flex-row py-8 px-10 space-x-5 sm:w-1/2">
+                    <div key={i} className="flex flex-row py-8 px-10 space-x-5 sm:w-1/2">
                         <img className="h-14 md:h-20" src={`/letters/${i+1}.png`} />
                         <div className="flex flex-col">
                             <h2 className="text-5xl" style={{ color: color }}>is for <span>{meaning}</span></h2>
