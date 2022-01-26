@@ -2,19 +2,19 @@
 
 @font-face {
     font-family: "Garamond";
-    src: url(../public/fonts/VCGaramondCondensed-Regular.woff2) format("woff2");
+    src: url("https://cloud-aez5hhesb-hack-club-bot.vercel.app/2vcgaramondcondensed-regular.woff2") format("woff2");
     font-weight: normal;
 }
 
 @font-face {
     font-family: "PalmerScript";
-    src: url(../public/fonts/PalmerLake-Script.woff2) format("woff2");
+    src: url("https://cloud-aez5hhesb-hack-club-bot.vercel.app/1palmerlake-script.woff2") format("woff2");
     font-weight: normal;
 }
 
 @font-face {
     font-family: "PalmerLake";
-    src: url(../public/fonts/PalmerLake-Print.woff2) format("woff2");
+    src: url("https://cloud-aez5hhesb-hack-club-bot.vercel.app/0palmerlake-print.woff2") format("woff2");
     font-weight: normal;
 }
 

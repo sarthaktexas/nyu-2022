@@ -8,7 +8,7 @@ export default function Home() {
         {/* You can put extra tags in here, or leave it blank */}
       </HeadObject>
       <main>
-        <section className="h-screen w-screen flex flex-row items-center justify-center bg-cover" style={{ backgroundImage: `url("https://cloud-6d6yitfdx-hack-club-bot.vercel.app/0bash_sarthak.png")` }}>
+        <section className="h-screen w-screen flex flex-row items-center justify-center bg-cover bg-center" style={{ backgroundImage: `url("https://cloud-fvssvghkm-hack-club-bot.vercel.app/0sarthak-mountain.png")` }}>
           <h1 className="w-5/6 text-white text-3xl md:text-5xl lg:text-6xl">Hey, I’m Sarthak Mohanty.  I love designing and developing websites. I enjoy vintage and creative art pieces although I also enjoy innovation. At school, I’m a design editor for the school yearbook, and (even though I’m an art history student), I love playing with physical mediums like clay, gouache, plexiglass, and cardboard. Sometimes, I like to build things out of trash, wood, and metal and create fantastical objects in the cedar forest behind my house. After school, I work freelance with non-profits and local businesses.</h1>
         </section>
         <section className="min-h-screen w-screen flex flex-row items-center justify-center bg-white py-20">
